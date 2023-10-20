@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-import StartScreen from "../src/componentes/StartScreen";
-=======
 //CSS
 
->>>>>>> 8ca1166 (Iniciando o desenvolvimento do componente Game, foram adicioda apenas uma pequena estrutura do componente)
 import "./App.css";
 
 //React
@@ -28,12 +24,8 @@ function App() {
   console.log(word);
   return (
     <div className="App">
-<<<<<<< HEAD
-      <StartScreen />
-=======
       {gameStage === "start" && <StartScreen />}
       {gameStage === "game" && <Game />}
->>>>>>> 8ca1166 (Iniciando o desenvolvimento do componente Game, foram adicioda apenas uma pequena estrutura do componente)
     </div>
   );
 }
