@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
+import StartScreen from "../src/componentes/StartScreen";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h2>Secreat Word</h2>
+      <StartScreen />
     </div>
   );
 }
